@@ -14,7 +14,11 @@ CONSECUTIVE_THRESHOLD = 15          # Trigger fatigue after 15 closed frames
 # =====================================
 # LOAD MODEL
 # =====================================
-model = tf.keras.models.load_model("models/eye_state_model.keras")
+MODEL_PATH = Path("models/eye_state_model.keras")
+if not MODEL_PATH.exists():
+    MODEL_PATH = Path("eye_state_model.keras")
+
+model = tf.keras.models.load_model(str(MODEL_PATH))
 
 # =====================================
 # LOAD SAMPLE IMAGES
@@ -22,8 +26,21 @@ model = tf.keras.models.load_model("models/eye_state_model.keras")
 open_folder = Path("mrl_eye_split/test/Open-Eyes")
 closed_folder = Path("mrl_eye_split/test/Close-Eyes")
 
+if not open_folder.exists() or not closed_folder.exists():
+    raise FileNotFoundError(
+        f"Dataset not found. Expected folders: {open_folder} and {closed_folder}."
+    )
+
 # Simulate 20 open frames + 30 closed frames
-sequence = list(open_folder.glob("*"))[:20] + list(closed_folder.glob("*"))[:30]
+open_images = list(open_folder.glob("*"))[:20]
+closed_images = list(closed_folder.glob("*"))[:30]
+
+if not open_images or not closed_images:
+    raise FileNotFoundError(
+        "No images found in test folders. Ensure Open-Eyes and Close-Eyes contain images."
+    )
+
+sequence = open_images + closed_images
 
 # Output folder
 os.makedirs("fatigue_demo_output", exist_ok=True)

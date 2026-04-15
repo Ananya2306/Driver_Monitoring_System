@@ -1,16 +1,22 @@
 import os
 import random
 import shutil
+from pathlib import Path
 
-SOURCE_DIR = "mrleyedataset"
-DEST_DIR = "mrl_eye_split"
+SOURCE_DIR = Path("mrleyedataset")
+DEST_DIR = Path("mrl_eye_split")
 
 TRAIN_RATIO = 0.7
 VAL_RATIO = 0.15
 TEST_RATIO = 0.15
 
 def split_dataset():
-    if not os.path.exists(DEST_DIR):
+    if not SOURCE_DIR.exists():
+        raise FileNotFoundError(
+            f"Source dataset not found: {SOURCE_DIR}. Update SOURCE_DIR to your dataset path."
+        )
+
+    if not DEST_DIR.exists():
         os.makedirs(DEST_DIR)
 
     for cls in os.listdir(SOURCE_DIR):

@@ -1,5 +1,6 @@
 import tensorflow as tf
 import os
+from pathlib import Path
 
 # SETTINGS
 IMG_SIZE = (64, 64)
@@ -8,15 +9,27 @@ EPOCHS = 20
 
 # ======================
 # LOAD DATA
+TRAIN_DIR = Path("mrl_eye_split") / "train"
+VAL_DIR = Path("mrl_eye_split") / "val"
+
+if not TRAIN_DIR.exists():
+    raise FileNotFoundError(
+        f"Training dataset not found: {TRAIN_DIR}. Expected class folders under this path."
+    )
+if not VAL_DIR.exists():
+    raise FileNotFoundError(
+        f"Validation dataset not found: {VAL_DIR}. Expected class folders under this path."
+    )
+
 train_ds = tf.keras.preprocessing.image_dataset_from_directory(
-    "mrl_eye_split/train",
+    str(TRAIN_DIR),
     image_size=IMG_SIZE,
     batch_size=BATCH_SIZE,
     label_mode="binary"
 )
 
 val_ds = tf.keras.preprocessing.image_dataset_from_directory(
-    "mrl_eye_split/val",
+    str(VAL_DIR),
     image_size=IMG_SIZE,
     batch_size=BATCH_SIZE,
     label_mode="binary"
