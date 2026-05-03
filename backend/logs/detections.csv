@@ -1,0 +1,85 @@
+timestamp,session_id,mode,result,confidence_%,severity,event_type
+2026-04-26 04:48:11,,fatigue,Drowsy,99.94,CRITICAL,detection
+2026-04-26 04:48:12,,fatigue,Drowsy,99.74,CRITICAL,detection
+2026-04-26 04:48:14,,fatigue,Drowsy,99.97,CRITICAL,detection
+2026-04-26 04:48:16,,fatigue,Drowsy,99.87,CRITICAL,detection
+2026-04-26 04:48:18,,fatigue,Drowsy,99.81,CRITICAL,detection
+2026-04-26 04:50:16,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:18,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:19,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:21,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:24,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:25,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:27,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:29,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:31,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:33,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:35,,fatigue,Drowsy,100.00,CRITICAL,detection
+2026-04-26 04:50:38,,fatigue,Drowsy,99.99,CRITICAL,detection
+2026-04-26 15:39:21,,fatigue,Drowsy,97.59,CRITICAL,detection
+2026-05-04 03:51:18,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:18,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:20,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:22,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:24,,fatigue,Drowsy,99.84,SAFE,detection
+2026-05-04 03:51:26,,fatigue,Not Drowsy,97.71,SAFE,detection
+2026-05-04 03:51:28,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:30,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:32,,fatigue,Not Drowsy,83.46,SAFE,detection
+2026-05-04 03:51:33,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:36,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:38,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:40,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:42,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:44,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:46,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:48,,fatigue,Drowsy,99.97,SAFE,detection
+2026-05-04 03:51:50,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:52,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:54,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:56,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:51:58,,fatigue,Not Drowsy,88.17,SAFE,detection
+2026-05-04 03:52:00,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:02,,fatigue,Drowsy,97.03,SAFE,detection
+2026-05-04 03:52:04,,fatigue,Not Drowsy,91.80,SAFE,detection
+2026-05-04 03:52:06,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:08,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:10,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:12,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:14,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:16,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:18,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:20,,fatigue,Not Drowsy,99.98,SAFE,detection
+2026-05-04 03:52:22,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:24,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:26,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:28,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:30,,fatigue,Not Drowsy,99.78,SAFE,detection
+2026-05-04 03:52:32,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:34,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:36,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:38,,fatigue,Drowsy,69.61,SAFE,detection
+2026-05-04 03:52:40,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:42,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:44,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:46,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:48,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:50,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:52,,fatigue,Drowsy,99.92,SAFE,detection
+2026-05-04 03:52:54,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:56,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:52:58,,fatigue,Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:00,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:02,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:04,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:06,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:07,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:10,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:12,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:13,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:15,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:17,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:20,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:22,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:24,,fatigue,Not Drowsy,100.00,SAFE,detection
+2026-05-04 03:53:26,,fatigue,Not Drowsy,100.00,SAFE,detection
