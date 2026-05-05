@@ -333,7 +333,7 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for full instructions.
 
 **Key Results:**
 - Fatigue model: 91.5% accuracy, AUC = 1.00
-- Smoking model: 79.9% accuracy, AUC = 0.98
+- Smoking model: 90.9% accuracy, AUC = 0.98
 - Real-time: ~15 FPS, <70ms API latency
 - 12 integrated behavioral analysis features
 
